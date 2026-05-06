@@ -1,0 +1,13 @@
+__pycache__/
+.vscode/
+
+# Datasets
+apnea-ecg/
+*.zip
+
+# Model weights
+*.pth
+*.pt
+
+# Depending on your needs, you might want to ignore large PPTX files as well
+# *.pptx
