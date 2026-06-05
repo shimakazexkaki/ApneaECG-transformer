@@ -1,13 +1,31 @@
 __pycache__/
+**/__pycache__/
+*.pyc
+.DS_Store
 .vscode/
 
 # Datasets
 apnea-ecg/
+ucddb/
 *.zip
 
 # Model weights
 *.pth
 *.pt
 
+# Local papers / generated text extracts
+*.pdf
+pptx_content.txt
+work_fnins_baseline/fnins-16-972581_text*.txt
+
+# Generated experiment outputs
+outputs/
+aligned_data/
+cnn_transformer_lstm/results/
+work_*/cache*/
+work_*/outputs/
+work_*/logs/
+*.npz
+
 # Depending on your needs, you might want to ignore large PPTX files as well
-# *.pptx
+*.pptx

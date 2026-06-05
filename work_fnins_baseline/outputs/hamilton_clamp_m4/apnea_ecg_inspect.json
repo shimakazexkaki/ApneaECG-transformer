@@ -1,0 +1,1079 @@
+{
+  "paper_protocol": "Apnea-ECG release records train/val; withheld x01-x35 test; validation is 20% of release records.",
+  "train": {
+    "total": 13625,
+    "positive": 5342,
+    "normal": 8283,
+    "positive_ratio": 0.39207339449541284
+  },
+  "val": {
+    "total": 3419,
+    "positive": 1172,
+    "normal": 2247,
+    "positive_ratio": 0.3427902895583504
+  },
+  "test": {
+    "total": 17213,
+    "positive": 6517,
+    "normal": 10696,
+    "positive_ratio": 0.3786091907279382
+  },
+  "records": {
+    "train": [
+      {
+        "record_id": "a13",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 495,
+        "samples": 495,
+        "positive": 244,
+        "normal": 251,
+        "rpeaks": 39786,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a09",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 495,
+        "samples": 495,
+        "positive": 381,
+        "normal": 114,
+        "rpeaks": 31566,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a17",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 485,
+        "samples": 485,
+        "positive": 158,
+        "normal": 327,
+        "rpeaks": 36449,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a10",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 517,
+        "samples": 517,
+        "positive": 100,
+        "normal": 417,
+        "rpeaks": 32302,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c09",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 468,
+        "samples": 468,
+        "positive": 2,
+        "normal": 466,
+        "rpeaks": 26922,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a01",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 489,
+        "samples": 489,
+        "positive": 470,
+        "normal": 19,
+        "rpeaks": 29939,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a05",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 454,
+        "samples": 454,
+        "positive": 276,
+        "normal": 178,
+        "rpeaks": 28764,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a18",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 489,
+        "samples": 489,
+        "positive": 438,
+        "normal": 51,
+        "rpeaks": 30268,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c03",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 454,
+        "samples": 454,
+        "positive": 0,
+        "normal": 454,
+        "rpeaks": 23773,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a06",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 206,
+        "normal": 304,
+        "rpeaks": 31030,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a12",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 577,
+        "samples": 577,
+        "positive": 534,
+        "normal": 43,
+        "rpeaks": 35812,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a02",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 528,
+        "samples": 528,
+        "positive": 420,
+        "normal": 108,
+        "rpeaks": 42609,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a03",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 519,
+        "samples": 519,
+        "positive": 246,
+        "normal": 273,
+        "rpeaks": 34043,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c08",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 513,
+        "samples": 513,
+        "positive": 0,
+        "normal": 513,
+        "rpeaks": 31164,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a04",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 492,
+        "samples": 492,
+        "positive": 453,
+        "normal": 39,
+        "rpeaks": 31224,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c06",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 468,
+        "samples": 468,
+        "positive": 1,
+        "normal": 467,
+        "rpeaks": 28187,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "b04",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 429,
+        "samples": 429,
+        "positive": 10,
+        "normal": 419,
+        "rpeaks": 25209,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c07",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 429,
+        "samples": 429,
+        "positive": 4,
+        "normal": 425,
+        "rpeaks": 32022,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a11",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 466,
+        "samples": 466,
+        "positive": 222,
+        "normal": 244,
+        "rpeaks": 33191,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "b03",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 441,
+        "samples": 441,
+        "positive": 73,
+        "normal": 368,
+        "rpeaks": 29071,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a19",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 502,
+        "samples": 502,
+        "positive": 205,
+        "normal": 297,
+        "rpeaks": 38775,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c01",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 484,
+        "samples": 484,
+        "positive": 0,
+        "normal": 484,
+        "rpeaks": 28280,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a07",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 511,
+        "samples": 511,
+        "positive": 322,
+        "normal": 189,
+        "rpeaks": 37473,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "b01",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 487,
+        "samples": 487,
+        "positive": 19,
+        "normal": 468,
+        "rpeaks": 35093,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c10",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 431,
+        "samples": 431,
+        "positive": 1,
+        "normal": 430,
+        "rpeaks": 23926,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a08",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 501,
+        "samples": 501,
+        "positive": 189,
+        "normal": 312,
+        "rpeaks": 41121,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a15",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 368,
+        "normal": 142,
+        "rpeaks": 33972,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c04",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 482,
+        "samples": 481,
+        "positive": 0,
+        "normal": 481,
+        "rpeaks": 29660,
+        "skipped_low_beats": 1,
+        "feature_shape": [
+          900,
+          2
+        ]
+      }
+    ],
+    "val": [
+      {
+        "record_id": "c02",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 502,
+        "samples": 502,
+        "positive": 1,
+        "normal": 501,
+        "rpeaks": 32712,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a14",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 509,
+        "samples": 509,
+        "positive": 383,
+        "normal": 126,
+        "rpeaks": 29016,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "b05",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 433,
+        "samples": 433,
+        "positive": 57,
+        "normal": 376,
+        "rpeaks": 27914,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "b02",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 517,
+        "samples": 517,
+        "positive": 93,
+        "normal": 424,
+        "rpeaks": 34823,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a16",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 482,
+        "samples": 482,
+        "positive": 320,
+        "normal": 162,
+        "rpeaks": 34934,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "c05",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 466,
+        "samples": 466,
+        "positive": 3,
+        "normal": 463,
+        "rpeaks": 28080,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "a20",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 315,
+        "normal": 195,
+        "rpeaks": 34501,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      }
+    ],
+    "test": [
+      {
+        "record_id": "x01",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 523,
+        "samples": 511,
+        "positive": 375,
+        "normal": 136,
+        "rpeaks": 29745,
+        "skipped_low_beats": 12,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x02",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 469,
+        "samples": 469,
+        "positive": 209,
+        "normal": 260,
+        "rpeaks": 39684,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x03",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 465,
+        "samples": 465,
+        "positive": 12,
+        "normal": 453,
+        "rpeaks": 33470,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x04",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 482,
+        "samples": 482,
+        "positive": 0,
+        "normal": 482,
+        "rpeaks": 25341,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x05",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 505,
+        "samples": 505,
+        "positive": 316,
+        "normal": 189,
+        "rpeaks": 35427,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x06",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 450,
+        "samples": 450,
+        "positive": 0,
+        "normal": 450,
+        "rpeaks": 21741,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x07",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 509,
+        "samples": 509,
+        "positive": 240,
+        "normal": 269,
+        "rpeaks": 32115,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x08",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 517,
+        "samples": 517,
+        "positive": 324,
+        "normal": 193,
+        "rpeaks": 35865,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x09",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 508,
+        "samples": 508,
+        "positive": 167,
+        "normal": 341,
+        "rpeaks": 37710,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x10",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 96,
+        "normal": 414,
+        "rpeaks": 41565,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x11",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 457,
+        "samples": 457,
+        "positive": 13,
+        "normal": 444,
+        "rpeaks": 29995,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x12",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 527,
+        "samples": 527,
+        "positive": 57,
+        "normal": 470,
+        "rpeaks": 38283,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x13",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 506,
+        "samples": 506,
+        "positive": 292,
+        "normal": 214,
+        "rpeaks": 37928,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x14",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 490,
+        "samples": 490,
+        "positive": 439,
+        "normal": 51,
+        "rpeaks": 41688,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x15",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 498,
+        "samples": 498,
+        "positive": 200,
+        "normal": 298,
+        "rpeaks": 32396,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x16",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 515,
+        "samples": 515,
+        "positive": 65,
+        "normal": 450,
+        "rpeaks": 34610,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x17",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 400,
+        "samples": 400,
+        "positive": 1,
+        "normal": 399,
+        "rpeaks": 19325,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x18",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 459,
+        "samples": 454,
+        "positive": 2,
+        "normal": 452,
+        "rpeaks": 25236,
+        "skipped_low_beats": 5,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x19",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 487,
+        "samples": 487,
+        "positive": 407,
+        "normal": 80,
+        "rpeaks": 31010,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x20",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 513,
+        "samples": 511,
+        "positive": 262,
+        "normal": 249,
+        "rpeaks": 36401,
+        "skipped_low_beats": 2,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x21",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 120,
+        "normal": 390,
+        "rpeaks": 33001,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x22",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 482,
+        "samples": 482,
+        "positive": 2,
+        "normal": 480,
+        "rpeaks": 29443,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x23",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 527,
+        "samples": 527,
+        "positive": 119,
+        "normal": 408,
+        "rpeaks": 38287,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x24",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 429,
+        "samples": 428,
+        "positive": 1,
+        "normal": 427,
+        "rpeaks": 22746,
+        "skipped_low_beats": 1,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x25",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 510,
+        "samples": 510,
+        "positive": 291,
+        "normal": 219,
+        "rpeaks": 36335,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x26",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 520,
+        "samples": 520,
+        "positive": 344,
+        "normal": 176,
+        "rpeaks": 32553,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x27",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 498,
+        "samples": 498,
+        "positive": 487,
+        "normal": 11,
+        "rpeaks": 39986,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x28",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 495,
+        "samples": 463,
+        "positive": 402,
+        "normal": 61,
+        "rpeaks": 36061,
+        "skipped_low_beats": 32,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x29",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 470,
+        "samples": 467,
+        "positive": 0,
+        "normal": 467,
+        "rpeaks": 30047,
+        "skipped_low_beats": 3,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x30",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 511,
+        "samples": 511,
+        "positive": 326,
+        "normal": 185,
+        "rpeaks": 36370,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x31",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 557,
+        "samples": 557,
+        "positive": 516,
+        "normal": 41,
+        "rpeaks": 34168,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x32",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 538,
+        "samples": 538,
+        "positive": 425,
+        "normal": 113,
+        "rpeaks": 34115,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x33",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 473,
+        "samples": 473,
+        "positive": 3,
+        "normal": 470,
+        "rpeaks": 34221,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x34",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 475,
+        "samples": 475,
+        "positive": 4,
+        "normal": 471,
+        "rpeaks": 34364,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      },
+      {
+        "record_id": "x35",
+        "dataset": "apnea_ecg",
+        "fs": 100,
+        "minutes_total": 483,
+        "samples": 483,
+        "positive": 0,
+        "normal": 483,
+        "rpeaks": 29547,
+        "skipped_low_beats": 0,
+        "feature_shape": [
+          900,
+          2
+        ]
+      }
+    ]
+  }
+}
