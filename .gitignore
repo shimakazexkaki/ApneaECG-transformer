@@ -13,10 +13,11 @@ ucddb/
 *.pth
 *.pt
 
-# Local papers / generated text extracts
+# Local papers / generated text extracts (版權,勿散布)
 *.pdf
 pptx_content.txt
-work_fnins_baseline/fnins-16-972581_text*.txt
+_olsen.txt
+**/fnins-16-972581_text*.txt
 
 # Generated experiment outputs
 outputs/
